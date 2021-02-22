@@ -1,1 +1,3 @@
-# PeerTube theme Quickstart
+# peertube-theme-pacerip
+
+Theme for the PaceRIP PeerTube instance
