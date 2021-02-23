@@ -1,0 +1,215 @@
+:root {
+    --textBoxBorder: #646c7d;
+}
+
+body {
+    background-color: var(--mainBackgroundColor);
+    --mainBackgroundColor: #141515;
+    --mainForegroundColor: var(--mainColor);
+    --submenuColor: var(--mainBackgroundColor);
+    --inputForegroundColor: var(--mainColor);
+    --inputBackgroundColor: var(--mainBackgroundColor);
+    --inputPlaceholderColor: var(--mainColor);
+    --textareaForegroundColor: var(--mainColor);
+    --textareaBackgroundColor: var(--mainBackgroundColor);
+    --markdownTextareaBackgroundColor: var(--mainBackgroundColor);
+    --greyForegroundColor: var(--mainColor);
+    --actionButtonColor: #a9d3b8;
+    --activatedActionButtonColor: var(--actionButtonColor);
+    --menuBackgroundColor: var(--mainBackgroundColor);
+    --menuForegroundColor: var(--mainColor);
+    --mainColor: #a9b7d3;
+    --mainColorLighter: #b7c7e5;
+    --mainColorLightest: #c1d1f1;
+    --mainHoverColor: #8893aa;
+    --embedForegroundColor: var(--mainColor);
+    --embedBigPlayBackgroundColor: var(--mainBackgroundColor);
+}
+
+.icon-next {
+    background-color: var(--mainColor) !important;
+}
+
+.popover {
+    background-color: var(--mainColor) !important;
+}
+
+.badge-primary {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.badge-secondary {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.glyphicon-ok {
+    color: #70c388 !important;
+}
+
+.glyphicon-remove {
+    color: #f13349 !important;
+}
+
+.logged-in-block {
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.logged-in-menu {
+    border-top: 0px solid var(--mainBackgroundColor) !important;
+}
+
+.header {
+    box-shadow: none !important;
+}
+
+input {
+    box-shadow: none !important;
+}
+
+textarea {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+.form-control:focus {
+    color: var(--mainForegroundColor) !important;
+    background-color: var(--mainBackgroundColor) !important;
+    box-shadow: 0 0 0 .2rem var(--textBoxBorder);
+}
+
+.publish-button-label {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.video-thumbnail {
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.miniature-thumbnail {
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.publish-button[_ngcontent-aak-c111] my-global-icon[_ngcontent-aak-c111] .feather, .publish-button[_ngcontent-aak-c111] my-global-icon[_ngcontent-aak-c111] .material {
+    color: var(--mainBackgroundColor) !important;
+}
+
+input[type="submit"] {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.text-success {
+    color: var(--actionButtonColor) !important;
+}
+
+svg {
+    color: var(--mainHoverColor) !important;
+}
+
+.feather-upload-cloud {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.instance-name {
+    color: var(--actionButtonColor) !important;
+}
+
+.icon-logo {
+    background-image: url() !important;
+}
+
+.privacy-concerns-button {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.privacy-concerns-button:hover {
+    color: var(--mainHoverColor) !important;
+}
+
+.privacy-concerns {
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.dropdown-menu {
+    color: var(--mainForegroundColor) !important;
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.dropdown-item {
+    color: var(--mainForegroundColor) !important;
+}
+
+.dropdown-item:hover {
+    color: var(--mainBackgroundColor) !important;
+    background-color: var(--mainHoverColor) !important;
+}
+
+.dropdown-menu .dropdown-item:active {
+    color: var(--mainBackgroundColor) !important;
+}
+
+[role="checkbox"] {
+    border: 1px solid var(--actionButtonColor) !important;
+}
+
+[role="checkbox"]:hover {
+    border: 1px solid #8bae98 !important;
+}
+
+.root .form-group-checkbox input:checked+span {
+    background: #275b28 !important;
+}
+
+.root .form-group-checkbox input:focus+span {
+    box-shadow: 0 0 0 .2rem var(--actionButtonColor);
+}
+
+input[type="text"] {
+    border: 1px solid var(--textBoxBorder) !important
+}
+
+.new-playlist-button>my-global-icon:nth-child(1)>svg:nth-child(1) {
+    color: var(--actionButtonColor) !important;
+}
+
+.feather-share-2 {
+    color: var(--actionButtonColor) !important;
+}
+
+.btn-outline-secondary {
+    border-color: var(--textBoxBorder) !important;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.border-top {
+    border-top: none !important;
+}
+
+button.ng-star-inserted, .dropdown-toggle-split {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.unsubscribe-button>button {
+    background-color: var(--actionButtonColor) !important;
+}
+
+.btn-group-subscribe.unsubscribe-button .btn {
+    background-color: var(--actionButtonColor) !important;
+}
+
+.btn-remote-follow {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.dropdown-menu .dropdown-item .ng-star-inserted {
+    color: var(--mainForegroundColor) !important;
+}
+
+.dropdown-menu a {
+    color: var(--mainForegroundColor) !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: var(--mainBackgroundColor) !important;
+}
