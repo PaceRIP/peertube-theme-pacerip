@@ -457,3 +457,11 @@ html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show button
 code {
     color: var(--mainBackgroundColor) !important;
 }
+
+.block-title, .title-page, .no-results.ng-star-inserted {
+    color: var(--actionButtonColor) !important;
+}
+
+my-peertube-checkbox div.root.flex-column div.d-flex label.form-group-checkbox span.ng-star-inserted {
+    color: var(--mainBackgroundColor) !important;
+}
