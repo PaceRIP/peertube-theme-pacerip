@@ -466,3 +466,7 @@ code {
 my-peertube-checkbox div.root.flex-column div.d-flex label.form-group-checkbox span.ng-star-inserted {
     color: var(--mainBackgroundColor) !important;
 }
+
+my-peertube-checkbox.ng-untouched.ng-pristine.ng-valid div.root.flex-column div.d-flex label.form-group-checkbox span.ng-star-inserted {
+    color: var(--mainColor) !important;
+}
