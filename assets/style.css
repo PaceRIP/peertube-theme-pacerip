@@ -15,6 +15,7 @@ body {
     --markdownTextareaBackgroundColor: var(--mainBackgroundColor);
     --greyForegroundColor: var(--mainColor);
     --actionButtonColor: #a9d3b8;
+    --secondaryColor: var(--actionButtonColor);
     --activatedActionButtonColor: var(--actionButtonColor);
     --menuBackgroundColor: var(--mainBackgroundColor);
     --menuForegroundColor: var(--mainColor);
@@ -163,7 +164,7 @@ svg {
 }
 
 input[type="text"] {
-    border: 1px solid var(--textBoxBorder) !important
+    border: 0px solid var(--textBoxBorder) !important
 }
 
 .new-playlist-button>my-global-icon:nth-child(1)>svg:nth-child(1) {
@@ -202,14 +203,257 @@ button.ng-star-inserted, .dropdown-toggle-split {
     color: var(--mainBackgroundColor) !important;
 }
 
+.dropdown-menu {
+    background-color: var(--mainColor) !important;
+}
+
+.dropdown-menu a {
+    color: var(--mainBackgroundColor) !important;
+}
+
 .dropdown-menu .dropdown-item .ng-star-inserted {
     color: var(--mainForegroundColor) !important;
 }
 
-.dropdown-menu a {
-    color: var(--mainForegroundColor) !important;
+.dropdown-menu .dropdown-item:hover {
+    color: var(--mainBackgroundColor) !important;
 }
 
-.dropdown-menu .dropdown-item:hover {
+.dropdown-divider {
+    margin: 0 !important;
+    border-top: 0px solid !important;
+}
+
+html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show a.dropdown-item my-input-switch.ml-auto div label.ml-auto {
+    background: #f0f0f0 !important
+}
+
+.dropdown-item my-global-icon svg {
+    color: var(--mainBackgroundColor) !important;
+}
+
+select>option {
+    color: var(--mainColor) !important;
+}
+
+html.js-focus-visible body#custom-css my-app div.peertube-container.user-logged-in div.sub-header-container div#content.main-col div.main-row my-my-account.ng-star-inserted div.row div.margin-content.pb-5.offset-content ng-component.ng-star-inserted div.header a {
+    background-color: var(--mainColor) !important;
+    color: var(--mainBackgroundColor) !important;
+}
+
+.form-control {
+    background: var(--mainBackgroundColor) !important;
+    color: var(--mainColor) !important;
+}
+
+.peertube-select-container, .peertube-select-container:hover {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.peertube-select-container select {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+my-account-applications.ng-star-inserted>h1:nth-child(1) {
+    border-bottom: none !important;
+}
+
+.input-group-append.ng-star-inserted {
+    background: var(--mainColor) !important;
+    border-radius: 3px !important;
+}
+
+.popover-notifications.popover .popover-body .all-notifications {
+    color: var(--mainBackgroundColor) !important;
+}
+
+my-global-icon.mr-1>svg:nth-child(1) {
+    color: var(--mainBackgroundColor) !important;
+}
+
+g.layer path {
+    fill: transparent !important;
+}
+
+g.layer>path:nth-child(2) {
+    fill: var(--mainBackgroundColor) !important;
+}
+
+svg.feather.feather-settings path {
+    color: var(--mainBackgroundColor) !important;
+}
+
+svg.feather.feather-settings circle {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.ng-star-inserted my-global-icon svg.feather.feather-settings path {
+    color: var(--mainHoverColor) !important;
+}
+
+.ng-star-inserted my-global-icon svg.feather.feather-settings circle {
+    color: var(--mainHoverColor) !important;
+}
+
+.publish-button:focus {
+    box-shadow: none !important;
+}
+
+.button-file {
+    visibility: hidden !important;
+    position: relative !important;
+}
+
+.button-file:after {
+    visibility: visible !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    content: "File upload disabled." !important;
+}
+
+.first-step-block ngb-tooltip-window {
+    visibility: hidden !important;
+}
+
+.upload-video-container {
+    border: none !important;
+}
+
+.video-add-nav a.nav-link.active {
+    border-color: transparent !important;
+}
+
+.first-step-block input[type="button"] {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.orange-button {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.orange-button .ng-star-inserted svg path {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.orange-button .ng-star-inserted svg polyline {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.button-file {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.nav-pills.nav-preview.nav {
+    border: none !important;
+}
+
+.ng-pristine.ng-valid div.root div.tab-content {
+    border-top: 1px solid var(--textBoxBorder) !important;
+    border-bottom: 1px solid var(--textBoxBorder) !important;
+    border-left: 1px solid var(--textBoxBorder) !important;
+    border-right: 1px solid var(--textBoxBorder) !important;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+}
+
+.alert-info {
+    color: var(--mainBackgroundColor) !important;
+    background-color: var(--mainColor) !important;
+    border-color: transparent !important;
+}
+
+.button-link {
+    color: var(--mainBackgroundColor) !important;
+    background: var(--mainColor) !important;
+}
+
+a.button-link my-global-icon svg g path {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+a.button-link my-global-icon svg path {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+a.button-link my-global-icon svg circle {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+ng-component h1, .video {
+    border-bottom: none !important;
+}
+
+.action-button.action-button-edit.grey-button {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.action-button.action-button-edit.grey-button my-global-icon svg path {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+.grey.button-styled my-global-icon svg circle {
+    color: var(--mainBackgroundColor) !important;
+}
+
+div.dropdown-root.ng-star-inserted.show.dropdown div.dropdown-menu.show span.custom-action.dropdown-item.with-icon.ng-star-inserted div.d-flex.flex-column.ng-star-inserted {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.input-group-text {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+my-account-blocklist h1 {
+    border-bottom: none !important;
+}
+
+my-account-server-blocklist h1 {
+    border-bottom: none !important;
+}
+
+my-account-abuses-list h1 {
+    border-bottom: none !important;
+}
+
+.peertube-select-container::after {
+    border-top-color: var(--mainColor) !important;
+}
+
+my-account-server-blocklist.ng-star-inserted h1 my-global-icon svg#Calque_1 line.st0 {
+    stroke: var(--mainColor) !important;
+}
+
+my-account-server-blocklist.ng-star-inserted>h1:nth-child(1)>my-global-icon:nth-child(1)>svg:nth-child(1)>g:nth-child(4)>g:nth-child(1)>g:nth-child(1)>path {
+    fill: var(--mainColor) !important;
+}
+
+.block-button {
+    color: var(--mainBackgroundColor) !important;
+}
+
+a.ml-2.block-button my-global-icon svg.feather.feather-plus-circle circle, a.ml-2.block-button my-global-icon svg.feather.feather-plus-circle line {
+    color: var(--mainBackgroundColor) !important;
+}
+
+html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show button.dropdown-item, html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show button.dropdown-item span {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.help-popover .popover-body {
+    background-color: #f0f0f0 !important;
+    color: var(--mainBackgroundColor) !important;
+}
+
+.bs-popover-left>.arrow::after {
+    border-left-color: #f0f0f0 !important;
+}
+
+.bs-popover-right>.arrow::after {
+    border-right-color: #f0f0f0 !important;
+}
+
+code {
     color: var(--mainBackgroundColor) !important;
 }
