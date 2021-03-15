@@ -225,7 +225,7 @@ button.ng-star-inserted, .dropdown-toggle-split {
 }
 
 html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show a.dropdown-item my-input-switch.ml-auto div label.ml-auto {
-    background: #f0f0f0 !important
+    background: #f0f0f0;
 }
 
 .dropdown-item my-global-icon svg {
@@ -469,4 +469,80 @@ my-peertube-checkbox div.root.flex-column div.d-flex label.form-group-checkbox s
 
 my-peertube-checkbox.ng-untouched.ng-pristine.ng-valid div.root.flex-column div.d-flex label.form-group-checkbox span.ng-star-inserted {
     color: var(--mainColor) !important;
+}
+
+a[routerlink="/videos/overview"], a[routerlink="/videos/trending"], a[routerlink="/videos/most-liked"], a[routerlink="/videos/local"], a[routerlink="/my-library/videos"], a[routerlink="/my-library/video-playlists"], a[routerlink="/my-library/history/videos"] {
+    visibility: hidden !important;
+    margin-bottom: -40px !important;
+}
+
+.no-results {
+    visibility: hidden !important;
+}
+
+.no-results::after {
+    visibility: visible !important;
+    content: "No streams live 📺" !important;
+}
+
+.in-my-library>div:nth-child(1), .on-instance>div:nth-child(1) {
+    position: relative !important;
+    top: 0px !important;
+    left: -82px !important;
+    visibility: hidden !important;
+}
+
+.on-instance>div:nth-child(1) {
+    margin-bottom: -34.5px !important;
+}
+
+.in-my-library>div:nth-child(1)::after {
+    position: absolute !important;
+    visibility: visible !important;
+    content: "Live Now" !important;
+}
+
+my-videos-user-subscriptions.ng-star-inserted div.margin-content div.videos-header h1.title-page.title-page-single.ng-star-inserted div {
+    position: relative !important;
+    top: 0px !important;
+    left: -235px !important;
+    visibility: hidden !important;
+}
+
+my-videos-user-subscriptions.ng-star-inserted div.margin-content div.videos-header h1.title-page.title-page-single.ng-star-inserted div::after {
+    visibility: visible !important;
+    content: "Subscriptions" !important;
+}
+
+div.dropdown div.dropdown-menu.show * {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.add-button, .create-button, .action-button-delete {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.add-button my-global-icon svg.feather.feather-user-plus *, .create-button my-global-icon svg.feather.feather-plus-circle *, .action-button.action-button-delete my-global-icon svg.feather.feather-trash-2 *, .action-button .ng-star-inserted .feather.feather-settings *, .feather-rss *, ng-component.ng-star-inserted div.header a my-global-icon svg.feather.feather-settings * {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+#confirmInput, #new-email, #table-filter, .input-group .form-control {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+.grey-button {
+    background-color: var(--mainColor) !important;
+    color: var(--mainBackgroundColor) !important;
+}
+
+.feather.feather-rss {
+    margin-right: -4px !important;
+}
+
+input:checked+label {
+    background: var(--actionButtonColor) !important;
+}
+
+input+label {
+    background: var(--mainHoverColor) !important;
 }
