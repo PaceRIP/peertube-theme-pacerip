@@ -570,3 +570,27 @@ input#original-publication-after, input#original-publication-before {
 .results-header {
     border-bottom: 0px solid transparent !important;
 }
+
+.video-playlist, .video-channel {
+    border-bottom: 0px solid transparent !important;
+}
+
+.dropdown-toggle.action-button.grey.button-styled {
+    background: var(--mainColor) !important;
+}
+
+.p-paginator-page.p-paginator-element.p-link.p-highlight.p-ripple.ng-star-inserted, .delete-history {
+    color: var(--mainBackgroundColor) !important;
+}
+
+#display-name, #fromName, #fromEmail, #subject {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+.feather.feather-trash-2 * {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+.delete-history {
+    background-color: var(--mainColor) !important;
+}
