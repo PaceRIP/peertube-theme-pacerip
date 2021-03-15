@@ -546,3 +546,27 @@ input:checked+label {
 input+label {
     background: var(--mainHoverColor) !important;
 }
+
+.update-button .action-button .ng-star-inserted svg * {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+.p-button-label {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.search-bar input {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+label.radio {
+    color: var(--mainBackgroundColor) !important;
+}
+
+input#original-publication-after, input#original-publication-before {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+.results-header {
+    border-bottom: 0px solid transparent !important;
+}
