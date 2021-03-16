@@ -1,5 +1,596 @@
 :root {
-    --textboxborder: #646c7d
+    --textBoxBorder: #646c7d;
 }
 
-[role=\"checkbox\"]{border:1px solid var(--actionButtonColor)!important}[role=\"checkbox\"]:hover{border:1px solid #8bae98!important}a[routerlink=\"/my-library/history/videos\"],a[routerlink=\"/my-library/video-playlists\"],a[routerlink=\"/my-library/videos\"],a[routerlink=\"/videos/local\"],a[routerlink=\"/videos/most-liked\"],a[routerlink=\"/videos/overview\"],a[routerlink=\"/videos/trending\"]{margin-bottom:-40px!important;visibility:hidden!important}body{--actionbuttoncolor:#a9d3b8;--activatedactionbuttoncolor:var(--actionButtonColor);--embedbigplaybackgroundcolor:var(--mainBackgroundColor);--embedforegroundcolor:var(--mainColor);--greyforegroundcolor:var(--mainColor);--inputbackgroundcolor:var(--mainBackgroundColor);--inputforegroundcolor:var(--mainColor);--inputplaceholdercolor:var(--mainColor);--mainbackgroundcolor:#141515;--maincolor:#a9b7d3;--maincolorlighter:#b7c7e5;--maincolorlightest:#c1d1f1;--mainforegroundcolor:var(--mainColor);--mainhovercolor:#8893aa;--markdowntextareabackgroundcolor:var(--mainBackgroundColor);--menubackgroundcolor:var(--mainBackgroundColor);--menuforegroundcolor:var(--mainColor);--secondarycolor:var(--actionButtonColor);--submenucolor:var(--mainBackgroundColor);--textareabackgroundcolor:var(--mainBackgroundColor);--textareaforegroundcolor:var(--mainColor);background-color:var(--mainBackgroundColor)}g.layer path{fill:transparent!important}g.layer>path:nth-child(2){fill:var(--mainBackgroundColor)!important}html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show a.dropdown-item my-input-switch.ml-auto div label.ml-auto{background:#f0f0f0}input+label{background:var(--mainHoverColor)!important}input:checked+label{background:var(--actionButtonColor)!important}input[type=\"text\"]{border:0 solid var(--textBoxBorder)!important}my-account-server-blocklist.ng-star-inserted h1 my-global-icon svg#Calque_1 line.st0{stroke:var(--mainColor)!important}my-account-server-blocklist.ng-star-inserted>h1:nth-child(1)>my-global-icon:nth-child(1)>svg:nth-child(1)>g:nth-child(4)>g:nth-child(1)>g:nth-child(1)>path{fill:var(--mainColor)!important}my-videos-user-subscriptions.ng-star-inserted div.margin-content div.videos-header h1.title-page.title-page-single.ng-star-inserted div{left:-235px!important;position:relative!important;top:0!important;visibility:hidden!important}my-videos-user-subscriptions.ng-star-inserted div.margin-content div.videos-header h1.title-page.title-page-single.ng-star-inserted div::after{content:\"Subscriptions\"!important;visibility:visible!important}.alert-info{background-color:var(--mainColor)!important;border-color:transparent!important;color:var(--mainBackgroundColor)!important}.border-top{border-top:none!important}.bs-popover-left>.arrow::after{border-left-color:#f0f0f0!important}.bs-popover-right>.arrow::after{border-right-color:#f0f0f0!important}.btn-outline-secondary{border-color:var(--textBoxBorder)!important}.button-link{background:var(--mainColor)!important;color:var(--mainBackgroundColor)!important}.dropdown-divider{border-top:0 solid!important;margin:0!important}.dropdown-item:hover{background-color:var(--mainHoverColor)!important;color:var(--mainBackgroundColor)!important}.dropdown-menu{background-color:var(--mainBackgroundColor)!important;color:var(--mainForegroundColor)!important}.dropdown-toggle.action-button.grey.button-styled{background:var(--mainColor)!important}.feather.feather-rss{margin-right:-4px!important}.first-step-block .button-file.form-control{position:relative!important;visibility:hidden!important}.first-step-block .button-file.form-control:after{color:var(--actionButtonColor)!important;left:0!important;position:absolute!important;top:0!important;visibility:visible!important}.form-control{background:var(--mainBackgroundColor)!important;color:var(--mainColor)!important}.form-control:focus{background-color:var(--mainBackgroundColor)!important;box-shadow:0 0 0 .2rem var(--textBoxBorder);color:var(--mainForegroundColor)!important}.glyphicon-ok{color:#70c388!important}.glyphicon-remove{color:#f13349!important}.help-popover .popover-body{background-color:#f0f0f0!important;color:var(--mainBackgroundColor)!important}.in-my-library>div:nth-child(1),.on-instance>div:nth-child(1){left:-82px!important;position:relative!important;top:0!important;visibility:hidden!important}.in-my-library>div:nth-child(1)::after{position:absolute!important;visibility:visible!important}.input-group-append.ng-star-inserted{background:var(--mainColor)!important;border-radius:3px!important}.logged-in-menu{border-top:0 solid var(--mainBackgroundColor)!important}.ng-pristine.ng-valid div.root div.tab-content{border-bottom:1px solid var(--textBoxBorder)!important;border-left:1px solid var(--textBoxBorder)!important;border-right:1px solid var(--textBoxBorder)!important;border-top:1px solid var(--textBoxBorder)!important;border-top-left-radius:3px!important;border-top-right-radius:3px!important}.no-results::after{visibility:visible!important}.on-instance>div:nth-child(1){margin-bottom:-34.5px!important}.p-checkbox-box{background:0 0!important}.peertube-select-container,.peertube-select-container:hover{background-color:transparent!important;border:none!important}.peertube-select-container::after{border-top-color:var(--mainColor)!important}.root .form-group-checkbox input:checked+span{background:#275b28!important}.root .form-group-checkbox input:focus+span{box-shadow:0 0 0 .2rem var(--actionButtonColor)}.video-add-nav a.nav-link.active{border-color:transparent!important}.action-button .ng-star-inserted .feather.feather-settings *,.action-button.action-button-delete my-global-icon svg.feather.feather-trash-2 *,.action-button.action-button-edit.grey-button my-global-icon svg path,.add-button my-global-icon svg.feather.feather-user-plus *,.create-button my-global-icon svg.feather.feather-plus-circle *,.feather-rss *,.feather.feather-trash-2 *,.update-button .action-button .ng-star-inserted svg *,a.button-link my-global-icon svg circle,a.button-link my-global-icon svg g path,a.button-link my-global-icon svg path,ng-component.ng-star-inserted div.header a my-global-icon svg.feather.feather-settings *{stroke:var(--mainBackgroundColor)!important}.action-button-delete,.action-button.action-button-edit.grey-button,.add-button,.badge-primary,.badge-secondary,.block-button,.btn-remote-follow,.button-file,.create-button,.delete-history,.dropdown-item my-global-icon svg,.dropdown-menu .dropdown-item:active,.dropdown-menu .dropdown-item:hover,.dropdown-menu a,.dropdown-toggle-split,.dropdown-toggle.action-button.orange.button-styled,.feather-upload-cloud,.first-step-block input[type=\"button\"],.grey.button-styled my-global-icon svg circle,.orange-button,.orange-button .ng-star-inserted svg path,.orange-button .ng-star-inserted svg polyline,.p-button-label,.p-paginator-page.p-paginator-element.p-link.p-highlight.p-ripple.ng-star-inserted,.popover-notifications.popover .popover-body .all-notifications,.privacy-concerns-button,.publish-button-label,.publish-button[_ngcontent-aak-c111] my-global-icon[_ngcontent-aak-c111] .feather,.publish-button[_ngcontent-aak-c111] my-global-icon[_ngcontent-aak-c111] .material,a.ml-2.block-button my-global-icon svg.feather.feather-plus-circle circle,a.ml-2.block-button my-global-icon svg.feather.feather-plus-circle line,button.ng-star-inserted,code,div.dropdown div.dropdown-menu.show *,div.dropdown-root.ng-star-inserted.show.dropdown div.dropdown-menu.show span.custom-action.dropdown-item.with-icon.ng-star-inserted div.d-flex.flex-column.ng-star-inserted,html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show button.dropdown-item,html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show button.dropdown-item span,input[type=\"submit\"],label.radio,my-global-icon.mr-1>svg:nth-child(1),my-peertube-checkbox div.root.flex-column div.d-flex label.form-group-checkbox span.ng-star-inserted,svg.feather.feather-settings circle,svg.feather.feather-settings path{color:var(--mainBackgroundColor)!important}.grey-button,html.js-focus-visible body#custom-css my-app div.peertube-container.user-logged-in div.sub-header-container div#content.main-col div.main-row my-my-account.ng-star-inserted div.row div.margin-content.pb-5.offset-content ng-component.ng-star-inserted div.header a{background-color:var(--mainColor)!important;color:var(--mainBackgroundColor)!important}.header,.publish-button:focus,input{box-shadow:none!important}#confirmInput,#display-name,#fromEmail,#fromName,#new-email,#subject,#table-filter,.input-group .form-control,.input-group-text,.peertube-select-container select,.search-bar input,input#original-publication-after,input#original-publication-before,textarea{border:1px solid var(--textBoxBorder)!important}.nav-tabs,.video,my-account-abuses-list h1,my-account-applications.ng-star-inserted>h1:nth-child(1),my-account-blocklist h1,my-account-server-blocklist h1,ng-component h1{border-bottom:none!important}my-peertube-checkbox.ng-untouched.ng-pristine.ng-valid div.root.flex-column div.d-flex label.form-group-checkbox span.ng-star-inserted,select>option{color:var(--mainColor)!important}.ng-star-inserted my-global-icon svg.feather.feather-settings circle,.ng-star-inserted my-global-icon svg.feather.feather-settings path,.privacy-concerns-button:hover,svg{color:var(--mainHoverColor)!important}.block-title,.feather-share-2,.instance-name,.new-playlist-button>my-global-icon:nth-child(1)>svg:nth-child(1),.no-results.ng-star-inserted,.text-success,.title-page{color:var(--actionButtonColor)!important}.btn-group-subscribe.unsubscribe-button .btn,.unsubscribe-button>button{background-color:var(--actionButtonColor)!important}.delete-history,.icon-next,.popover{background-color:var(--mainColor)!important}.dropdown-item,.dropdown-menu .dropdown-item .ng-star-inserted{color:var(--mainForegroundColor)!important}.first-step-block ngb-tooltip-window,.no-results{visibility:hidden!important}.logged-in-block,.miniature-thumbnail,.privacy-concerns,.video-thumbnail{background-color:var(--mainBackgroundColor)!important}.nav-pills.nav-preview.nav,.upload-video-container{border:none!important}.results-header,.video-channel,.video-playlist{border-bottom:0 solid transparent!important}
+body {
+    background-color: var(--mainBackgroundColor);
+    --mainBackgroundColor: #141515;
+    --mainForegroundColor: var(--mainColor);
+    --submenuColor: var(--mainBackgroundColor);
+    --inputForegroundColor: var(--mainColor);
+    --inputBackgroundColor: var(--mainBackgroundColor);
+    --inputPlaceholderColor: var(--mainColor);
+    --textareaForegroundColor: var(--mainColor);
+    --textareaBackgroundColor: var(--mainBackgroundColor);
+    --markdownTextareaBackgroundColor: var(--mainBackgroundColor);
+    --greyForegroundColor: var(--mainColor);
+    --actionButtonColor: #a9d3b8;
+    --secondaryColor: var(--actionButtonColor);
+    --activatedActionButtonColor: var(--actionButtonColor);
+    --menuBackgroundColor: var(--mainBackgroundColor);
+    --menuForegroundColor: var(--mainColor);
+    --mainColor: #a9b7d3;
+    --mainColorLighter: #b7c7e5;
+    --mainColorLightest: #c1d1f1;
+    --mainHoverColor: #8893aa;
+    --embedForegroundColor: var(--mainColor);
+    --embedBigPlayBackgroundColor: var(--mainBackgroundColor);
+}
+
+.icon-next {
+    background-color: var(--mainColor) !important;
+}
+
+.popover {
+    background-color: var(--mainColor) !important;
+}
+
+.badge-primary {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.badge-secondary {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.glyphicon-ok {
+    color: #70c388 !important;
+}
+
+.glyphicon-remove {
+    color: #f13349 !important;
+}
+
+.logged-in-block {
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.logged-in-menu {
+    border-top: 0px solid var(--mainBackgroundColor) !important;
+}
+
+.header {
+    box-shadow: none !important;
+}
+
+input {
+    box-shadow: none !important;
+}
+
+textarea {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+.form-control:focus {
+    color: var(--mainForegroundColor) !important;
+    background-color: var(--mainBackgroundColor) !important;
+    box-shadow: 0 0 0 .2rem var(--textBoxBorder);
+}
+
+.publish-button-label {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.video-thumbnail {
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.miniature-thumbnail {
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.publish-button[_ngcontent-aak-c111] my-global-icon[_ngcontent-aak-c111] .feather, .publish-button[_ngcontent-aak-c111] my-global-icon[_ngcontent-aak-c111] .material {
+    color: var(--mainBackgroundColor) !important;
+}
+
+input[type="submit"] {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.text-success {
+    color: var(--actionButtonColor) !important;
+}
+
+svg {
+    color: var(--mainHoverColor) !important;
+}
+
+.feather-upload-cloud {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.instance-name {
+    color: var(--actionButtonColor) !important;
+}
+
+.icon-logo {
+    background-image: url() !important;
+}
+
+.privacy-concerns-button {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.privacy-concerns-button:hover {
+    color: var(--mainHoverColor) !important;
+}
+
+.privacy-concerns {
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.dropdown-menu {
+    color: var(--mainForegroundColor) !important;
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.dropdown-item {
+    color: var(--mainForegroundColor) !important;
+}
+
+.dropdown-item:hover {
+    color: var(--mainBackgroundColor) !important;
+    background-color: var(--mainHoverColor) !important;
+}
+
+.dropdown-menu .dropdown-item:active {
+    color: var(--mainBackgroundColor) !important;
+}
+
+[role="checkbox"] {
+    border: 1px solid var(--actionButtonColor) !important;
+}
+
+[role="checkbox"]:hover {
+    border: 1px solid #8bae98 !important;
+}
+
+.root .form-group-checkbox input:checked+span {
+    background: #275b28 !important;
+}
+
+.root .form-group-checkbox input:focus+span {
+    box-shadow: 0 0 0 .2rem var(--actionButtonColor);
+}
+
+input[type="text"] {
+    border: 0px solid var(--textBoxBorder) !important
+}
+
+.new-playlist-button>my-global-icon:nth-child(1)>svg:nth-child(1) {
+    color: var(--actionButtonColor) !important;
+}
+
+.feather-share-2 {
+    color: var(--actionButtonColor) !important;
+}
+
+.btn-outline-secondary {
+    border-color: var(--textBoxBorder) !important;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.border-top {
+    border-top: none !important;
+}
+
+button.ng-star-inserted, .dropdown-toggle-split {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.unsubscribe-button>button {
+    background-color: var(--actionButtonColor) !important;
+}
+
+.btn-group-subscribe.unsubscribe-button .btn {
+    background-color: var(--actionButtonColor) !important;
+}
+
+.btn-remote-follow {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--mainColor) !important;
+}
+
+.dropdown-menu a {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.dropdown-menu .dropdown-item .ng-star-inserted {
+    color: var(--mainForegroundColor) !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.dropdown-divider {
+    margin: 0 !important;
+    border-top: 0px solid !important;
+}
+
+html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show a.dropdown-item my-input-switch.ml-auto div label.ml-auto {
+    background: #f0f0f0;
+}
+
+.dropdown-item my-global-icon svg {
+    color: var(--mainBackgroundColor) !important;
+}
+
+select>option {
+    color: var(--mainColor) !important;
+}
+
+html.js-focus-visible body#custom-css my-app div.peertube-container.user-logged-in div.sub-header-container div#content.main-col div.main-row my-my-account.ng-star-inserted div.row div.margin-content.pb-5.offset-content ng-component.ng-star-inserted div.header a {
+    background-color: var(--mainColor) !important;
+    color: var(--mainBackgroundColor) !important;
+}
+
+.form-control {
+    background: var(--mainBackgroundColor) !important;
+    color: var(--mainColor) !important;
+}
+
+.peertube-select-container, .peertube-select-container:hover {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.peertube-select-container select {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+my-account-applications.ng-star-inserted>h1:nth-child(1) {
+    border-bottom: none !important;
+}
+
+.input-group-append.ng-star-inserted {
+    background: var(--mainColor) !important;
+    border-radius: 3px !important;
+}
+
+.popover-notifications.popover .popover-body .all-notifications {
+    color: var(--mainBackgroundColor) !important;
+}
+
+my-global-icon.mr-1>svg:nth-child(1) {
+    color: var(--mainBackgroundColor) !important;
+}
+
+g.layer path {
+    fill: transparent !important;
+}
+
+g.layer>path:nth-child(2) {
+    fill: var(--mainBackgroundColor) !important;
+}
+
+svg.feather.feather-settings path {
+    color: var(--mainBackgroundColor) !important;
+}
+
+svg.feather.feather-settings circle {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.ng-star-inserted my-global-icon svg.feather.feather-settings path {
+    color: var(--mainHoverColor) !important;
+}
+
+.ng-star-inserted my-global-icon svg.feather.feather-settings circle {
+    color: var(--mainHoverColor) !important;
+}
+
+.publish-button:focus {
+    box-shadow: none !important;
+}
+
+.first-step-block .button-file.form-control {
+    visibility: hidden !important;
+    position: relative !important;
+}
+
+.first-step-block .button-file.form-control:after {
+    visibility: visible !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    content: "File upload disabled." !important;
+    color: var(--actionButtonColor) !important;
+}
+
+.first-step-block ngb-tooltip-window {
+    visibility: hidden !important;
+}
+
+.upload-video-container {
+    border: none !important;
+}
+
+.video-add-nav a.nav-link.active {
+    border-color: transparent !important;
+}
+
+.first-step-block input[type="button"] {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.orange-button {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.orange-button .ng-star-inserted svg path {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.orange-button .ng-star-inserted svg polyline {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.button-file {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.nav-pills.nav-preview.nav {
+    border: none !important;
+}
+
+.ng-pristine.ng-valid div.root div.tab-content {
+    border-top: 1px solid var(--textBoxBorder) !important;
+    border-bottom: 1px solid var(--textBoxBorder) !important;
+    border-left: 1px solid var(--textBoxBorder) !important;
+    border-right: 1px solid var(--textBoxBorder) !important;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+}
+
+.alert-info {
+    color: var(--mainBackgroundColor) !important;
+    background-color: var(--mainColor) !important;
+    border-color: transparent !important;
+}
+
+.button-link {
+    color: var(--mainBackgroundColor) !important;
+    background: var(--mainColor) !important;
+}
+
+a.button-link my-global-icon svg g path {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+a.button-link my-global-icon svg path {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+a.button-link my-global-icon svg circle {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+ng-component h1, .video {
+    border-bottom: none !important;
+}
+
+.action-button.action-button-edit.grey-button {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.action-button.action-button-edit.grey-button my-global-icon svg path {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+.grey.button-styled my-global-icon svg circle {
+    color: var(--mainBackgroundColor) !important;
+}
+
+div.dropdown-root.ng-star-inserted.show.dropdown div.dropdown-menu.show span.custom-action.dropdown-item.with-icon.ng-star-inserted div.d-flex.flex-column.ng-star-inserted {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.input-group-text {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+my-account-blocklist h1 {
+    border-bottom: none !important;
+}
+
+my-account-server-blocklist h1 {
+    border-bottom: none !important;
+}
+
+my-account-abuses-list h1 {
+    border-bottom: none !important;
+}
+
+.peertube-select-container::after {
+    border-top-color: var(--mainColor) !important;
+}
+
+my-account-server-blocklist.ng-star-inserted h1 my-global-icon svg#Calque_1 line.st0 {
+    stroke: var(--mainColor) !important;
+}
+
+my-account-server-blocklist.ng-star-inserted>h1:nth-child(1)>my-global-icon:nth-child(1)>svg:nth-child(1)>g:nth-child(4)>g:nth-child(1)>g:nth-child(1)>path {
+    fill: var(--mainColor) !important;
+}
+
+.block-button {
+    color: var(--mainBackgroundColor) !important;
+}
+
+a.ml-2.block-button my-global-icon svg.feather.feather-plus-circle circle, a.ml-2.block-button my-global-icon svg.feather.feather-plus-circle line {
+    color: var(--mainBackgroundColor) !important;
+}
+
+html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show button.dropdown-item, html.js-focus-visible body#custom-css div.dropdown div.dropdown-menu.show button.dropdown-item span {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.help-popover .popover-body {
+    background-color: #f0f0f0 !important;
+    color: var(--mainBackgroundColor) !important;
+}
+
+.bs-popover-left>.arrow::after {
+    border-left-color: #f0f0f0 !important;
+}
+
+.bs-popover-right>.arrow::after {
+    border-right-color: #f0f0f0 !important;
+}
+
+code {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.block-title, .title-page, .no-results.ng-star-inserted {
+    color: var(--actionButtonColor) !important;
+}
+
+my-peertube-checkbox div.root.flex-column div.d-flex label.form-group-checkbox span.ng-star-inserted {
+    color: var(--mainBackgroundColor) !important;
+}
+
+my-peertube-checkbox.ng-untouched.ng-pristine.ng-valid div.root.flex-column div.d-flex label.form-group-checkbox span.ng-star-inserted {
+    color: var(--mainColor) !important;
+}
+
+a[routerlink="/videos/overview"], a[routerlink="/videos/trending"], a[routerlink="/videos/most-liked"], a[routerlink="/videos/local"], a[routerlink="/my-library/videos"], a[routerlink="/my-library/video-playlists"], a[routerlink="/my-library/history/videos"] {
+    visibility: hidden !important;
+    margin-bottom: -40px !important;
+}
+
+.no-results {
+    visibility: hidden !important;
+}
+
+.no-results::after {
+    visibility: visible !important;
+    content: "No streams live 📺" !important;
+}
+
+.in-my-library>div:nth-child(1), .on-instance>div:nth-child(1) {
+    position: relative !important;
+    top: 0px !important;
+    left: -82px !important;
+    visibility: hidden !important;
+}
+
+.on-instance>div:nth-child(1) {
+    margin-bottom: -34.5px !important;
+}
+
+.in-my-library>div:nth-child(1)::after {
+    position: absolute !important;
+    visibility: visible !important;
+    content: "Live Now" !important;
+}
+
+my-videos-user-subscriptions.ng-star-inserted div.margin-content div.videos-header h1.title-page.title-page-single.ng-star-inserted div {
+    position: relative !important;
+    top: 0px !important;
+    left: -235px !important;
+    visibility: hidden !important;
+}
+
+my-videos-user-subscriptions.ng-star-inserted div.margin-content div.videos-header h1.title-page.title-page-single.ng-star-inserted div::after {
+    visibility: visible !important;
+    content: "Subscriptions" !important;
+}
+
+div.dropdown div.dropdown-menu.show * {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.add-button, .create-button, .action-button-delete {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.add-button my-global-icon svg.feather.feather-user-plus *, .create-button my-global-icon svg.feather.feather-plus-circle *, .action-button.action-button-delete my-global-icon svg.feather.feather-trash-2 *, .action-button .ng-star-inserted .feather.feather-settings *, .feather-rss *, ng-component.ng-star-inserted div.header a my-global-icon svg.feather.feather-settings * {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+#confirmInput, #new-email, #table-filter, .input-group .form-control {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+.grey-button {
+    background-color: var(--mainColor) !important;
+    color: var(--mainBackgroundColor) !important;
+}
+
+.feather.feather-rss {
+    margin-right: -4px !important;
+}
+
+input:checked+label {
+    background: var(--actionButtonColor) !important;
+}
+
+input+label {
+    background: var(--mainHoverColor) !important;
+}
+
+.update-button .action-button .ng-star-inserted svg * {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+.p-button-label {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.search-bar input {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+label.radio {
+    color: var(--mainBackgroundColor) !important;
+}
+
+input#original-publication-after, input#original-publication-before {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+.results-header {
+    border-bottom: 0px solid transparent !important;
+}
+
+.video-playlist, .video-channel {
+    border-bottom: 0px solid transparent !important;
+}
+
+.dropdown-toggle.action-button.grey.button-styled {
+    background: var(--mainColor) !important;
+}
+
+.p-paginator-page.p-paginator-element.p-link.p-highlight.p-ripple.ng-star-inserted, .delete-history {
+    color: var(--mainBackgroundColor) !important;
+}
+
+#display-name, #fromName, #fromEmail, #subject {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+.feather.feather-trash-2 * {
+    stroke: var(--mainBackgroundColor) !important;
+}
+
+.delete-history {
+    background-color: var(--mainColor) !important;
+}

@@ -13,9 +13,9 @@ This repo contains the theme of the PaceRIP PeerTube instance ([pace.rip](https:
 
 1. [Uninstall](https://pace.rip/admin/plugins/list-installed?pluginType=2) the theme, then repeat the above installation steps.
 
-## CSS specifics
+## A brief CSS note
 
-`style.css` is a minified version of `style.max.css`. PeerTube's formatting is affected by a file named `style.css`, and we skirt formatting rules for this purpose.
+`style.css` is messy! And minimization breaks it for some reason. So for now, you folks are gonna have to deal with some shabby CSS styling, boo-hoo.
 
 ## NPM specifics
 
