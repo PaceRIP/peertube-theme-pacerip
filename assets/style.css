@@ -606,3 +606,39 @@ input#original-publication-after, input#original-publication-before {
 ngb-accordion .btn {
     background-color: var(--mainColor) !important;
 }
+
+my-video-actions-dropdown my-action-dropdown div button my-global-icon svg * {
+    stroke: var(--actionButtonColor) !important;
+}
+
+div.dropdown div.dropdown-menu.show input[type="email"], my-video-add-to-playlist .root .input-container input[type="text"] {
+    color: var(--mainColor) !important;
+}
+
+.video-actions .activated my-global-icon svg {
+    color: var(--actionButtonColor) !important;
+}
+
+my-markdown-textarea .root .tab-content {
+    border-top: 1px solid var(--textBoxBorder) !important;
+    border-bottom: 1px solid var(--textBoxBorder) !important;
+    border-left: 1px solid var(--textBoxBorder) !important;
+    border-right: 1px solid var(--textBoxBorder) !important;
+}
+
+.p-calendar input {
+    border: 1px solid var(--textBoxBorder) !important;
+    color: var(--mainColor) !important;
+}
+
+my-global-icon[iconname="syndication"] svg * {
+    stroke: var(--mainColor) !important;
+}
+
+.feed .popover {
+    background-color: #f0f0f0 !important;
+}
+
+my-user-moderation-dropdown my-action-dropdown .dropdown-root * {
+    color: var(--mainBackgroundColor) !important;
+}
