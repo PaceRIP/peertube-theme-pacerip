@@ -642,3 +642,7 @@ my-global-icon[iconname="syndication"] svg * {
 my-user-moderation-dropdown my-action-dropdown .dropdown-root * {
     color: var(--mainBackgroundColor) !important;
 }
+
+.card {
+    border-color: var(--textBodyBorder) !important;
+}
