@@ -464,7 +464,7 @@ code {
 }
 
 my-peertube-checkbox div.root.flex-column div.d-flex label.form-group-checkbox span.ng-star-inserted {
-    color: var(--mainBackgroundColor) !important;
+    color: var(--mainColor) !important;
 }
 
 my-peertube-checkbox.ng-untouched.ng-pristine.ng-valid div.root.flex-column div.d-flex label.form-group-checkbox span.ng-star-inserted {
@@ -592,5 +592,17 @@ input#original-publication-after, input#original-publication-before {
 }
 
 .delete-history {
+    background-color: var(--mainColor) !important;
+}
+
+.login-button {
+    color: var(--mainBackgroundColor) !important;
+}
+
+#displayName, #name, #email, #username {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+ngb-accordion .btn {
     background-color: var(--mainColor) !important;
 }
