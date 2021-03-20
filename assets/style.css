@@ -646,3 +646,11 @@ my-user-moderation-dropdown my-action-dropdown .dropdown-root * {
 .card {
     border-color: var(--textBodyBorder) !important;
 }
+
+.submit-button {
+    color: var(--mainBackgroundColor) !important;
+}
+
+.button-file my-global-icon svg * {
+    stroke: var(--mainBackgroundColor) !important;
+}
