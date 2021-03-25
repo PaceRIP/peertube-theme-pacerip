@@ -113,10 +113,6 @@ svg {
     color: var(--actionButtonColor) !important;
 }
 
-.icon-logo {
-    background-image: url() !important;
-}
-
 .privacy-concerns-button {
     color: var(--mainBackgroundColor) !important;
 }
