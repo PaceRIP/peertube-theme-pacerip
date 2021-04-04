@@ -8,7 +8,7 @@ body {
     --mainForegroundColor: var(--mainColor);
     --submenuColor: var(--mainBackgroundColor);
     --inputForegroundColor: var(--mainColor);
-    --inputBackgroundColor: var(--mainBackgroundColor);
+    --inputBackgroundColor: transparent;
     --inputPlaceholderColor: var(--mainColor);
     --textareaForegroundColor: var(--mainColor);
     --textareaBackgroundColor: var(--mainBackgroundColor);
@@ -518,8 +518,16 @@ div.dropdown div.dropdown-menu.show * {
     color: var(--mainBackgroundColor) !important;
 }
 
-.add-button my-global-icon svg.feather.feather-user-plus *, .create-button my-global-icon svg.feather.feather-plus-circle *, .action-button.action-button-delete my-global-icon svg.feather.feather-trash-2 *, .action-button .ng-star-inserted .feather.feather-settings *, .feather-rss *, ng-component.ng-star-inserted div.header a my-global-icon svg.feather.feather-settings * {
+.add-button my-global-icon svg.feather.feather-user-plus *, .create-button my-global-icon svg.feather.feather-plus-circle *, .action-button.action-button-delete my-global-icon svg.feather.feather-trash-2 *, .action-button .ng-star-inserted .feather.feather-settings *, .feather-rss *, ng-component.ng-star-inserted div.header a my-global-icon svg.feather.feather-settings *, .feather-plus-circle * {
     stroke: var(--mainBackgroundColor) !important;
+}
+
+.feather-rss circle {
+    fill: var(--mainBackgroundColor) !important;
+}
+
+.icon-syndication .feather-rss circle {
+    fill: var(--mainColor) !important;
 }
 
 #confirmInput, #new-email, #table-filter, .input-group .form-control {
@@ -649,4 +657,16 @@ my-user-moderation-dropdown my-action-dropdown .dropdown-root * {
 
 .button-file my-global-icon svg * {
     stroke: var(--mainBackgroundColor) !important;
+}
+
+input[id="instanceName"], input[id="adminEmail"], input[id="servicesTwitterUsername"], .ng-select .ng-select-container, .callout, .has-feedback input {
+    border: 1px solid var(--textBoxBorder) !important;
+}
+
+my-global-icon[iconname="user-add"] svg * {
+    stroke: var(--mainHoverColor) !important;
+}
+
+.feature-table table tr * {
+    border-top: 0px transparent !important;
 }
