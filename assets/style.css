@@ -674,3 +674,7 @@ my-global-icon[iconname="user-add"] svg * {
 my-instance-statistics section h3, my-instance-statistics section .row:nth-child(4) {
     visibility: hidden !important;
 }
+
+.title-page.title-page-about[href="/about/follows"] {
+    visibility: hidden !important;
+}
