@@ -670,3 +670,7 @@ my-global-icon[iconname="user-add"] svg * {
 .feature-table table tr * {
     border-top: 0px transparent !important;
 }
+
+my-instance-statistics section h3, my-instance-statistics section .row:nth-child(4) {
+    visibility: hidden !important;
+}
