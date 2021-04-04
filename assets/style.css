@@ -518,7 +518,7 @@ div.dropdown div.dropdown-menu.show * {
     color: var(--mainBackgroundColor) !important;
 }
 
-.add-button my-global-icon svg.feather.feather-user-plus *, .create-button my-global-icon svg.feather.feather-plus-circle *, .action-button.action-button-delete my-global-icon svg.feather.feather-trash-2 *, .action-button .ng-star-inserted .feather.feather-settings *, .feather-rss *, ng-component.ng-star-inserted div.header a my-global-icon svg.feather.feather-settings *, .feather-plus-circle * {
+.add-button my-global-icon svg.feather.feather-user-plus *, .create-button my-global-icon svg.feather.feather-plus-circle *, .action-button.action-button-delete my-global-icon svg.feather.feather-trash-2 *, .action-button .ng-star-inserted .feather.feather-settings *, .feather-rss *, ng-component.ng-star-inserted div.header a my-global-icon svg.feather.feather-settings * {
     stroke: var(--mainBackgroundColor) !important;
 }
 
