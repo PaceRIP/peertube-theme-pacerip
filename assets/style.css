@@ -29,6 +29,7 @@ body {
     --mainHoverColor: #8893aa;
     --embedForegroundColor: var(--mainColor);
     --embedBigPlayBackgroundColor: var(--mainBackgroundColor);
+    --channelBackgroundColor: var(--mainBackgroundColor);
     /* Legacy variables */
     --submenuColor: var(--mainBackgroundColor);
     /* End legacy variables */
@@ -696,4 +697,12 @@ my-instance-statistics section h3, my-instance-statistics section .row:nth-child
 
 #peertube-plugin-livechat-container::-webkit-scrollbar {
     display: none !important;
+}
+
+.support-button span {
+    color: var(--mainColor) !important;
+}
+
+.support-button:hover span {
+    color: var(--mainBackgroundColor) !important;
 }
