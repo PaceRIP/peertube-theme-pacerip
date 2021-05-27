@@ -10,7 +10,7 @@ body {
     background-color: var(--mainBackgroundColor);
     --mainBackgroundColor: #141515;
     --mainForegroundColor: var(--mainColor);
-    --submenuColor: var(--mainBackgroundColor);
+    --submenuBackgroundColor: var(--mainBackgroundColor);
     --inputForegroundColor: var(--mainColor);
     --inputBackgroundColor: transparent;
     --inputPlaceholderColor: var(--mainColor);
@@ -29,6 +29,9 @@ body {
     --mainHoverColor: #8893aa;
     --embedForegroundColor: var(--mainColor);
     --embedBigPlayBackgroundColor: var(--mainBackgroundColor);
+    /* Legacy variables */
+    --submenuColor: var(--mainBackgroundColor);
+    /* End legacy variables */
 }
 
 .icon-next {

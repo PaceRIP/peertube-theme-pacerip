@@ -4,6 +4,10 @@
 
 This repo contains the theme of the PaceRIP PeerTube instance ([pace.rip](https://pace.rip/)), formatted in accordance with the [PeerTube docs](https://docs.joinpeertube.org/contribute-plugins?id=write-a-plugintheme).
 
+## Important note
+
+PaceRIP is a streaming-only no-VODs instance! Installing the theme unmodified will hide will prevent users from uploading videos. (Although "prevent" is a strong word, this theme simply hides the upload button.)
+
 ## Installation for PeerTube instances
 
 1. [Search for](https://pace.rip/admin/plugins/search?pluginType=2) the `pacerip` theme and install.
