@@ -674,10 +674,6 @@ my-instance-statistics section h3, my-instance-statistics section .row:nth-child
     visibility: hidden !important;
 }
 
-.title-page.title-page-about[href="/about/follows"] {
-    visibility: hidden !important;
-}
-
 .peertube-plugin-livechat-buttons {
     background-color: var(--mainBackgroundColor) !important;
 }
