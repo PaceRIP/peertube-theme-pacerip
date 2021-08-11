@@ -480,15 +480,6 @@ a[routerlink="/videos/overview"], a[routerlink="/videos/trending"], a[routerlink
     margin-bottom: -40px !important;
 }
 
-.no-results {
-    visibility: hidden !important;
-}
-
-.no-results::after {
-    visibility: visible !important;
-    content: "No streams live 📺" !important;
-}
-
 .in-my-library>div:nth-child(1), .on-instance>div:nth-child(1) {
     position: relative !important;
     top: 0px !important;
