@@ -697,3 +697,35 @@ my-instance-statistics section h3, my-instance-statistics section .row:nth-child
 .support-button:hover span {
     color: var(--mainBackgroundColor) !important;
 }
+
+.action-button.action-button-support.ng-star-inserted {
+    color: var(--actionButtonColor) !important;
+}
+
+.display-name, .new-playlist-button span {
+    color: var(--mainBackgroundColor) !important;
+}
+
+my-video-comments {
+    display: none !important;
+}
+
+.videos {
+    --miniatureMinWidth: none !important;
+}
+
+.videos:empty::after {
+    width: 100%;
+    height: 75vh;
+    text-align: center;
+    content: "No streams live 📺";
+}
+
+.in-my-library>a:nth-child(3), .in-my-library>a:nth-child(5), .on-instance>a:nth-child(3), .on-instance>a:nth-child(4), .on-instance>a:nth-child(5), .on-instance>a:nth-child(6) {
+    visibility: hidden !important;
+    margin-bottom: -40px !important;
+}
+
+.icon-logo {
+    background-repeat: no-repeat !important;
+}
