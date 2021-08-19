@@ -26,3 +26,5 @@ PaceRIP is a streaming-only no-VODs instance! Installing the theme unmodified wi
 Whenever this repo is updated, the npm maintainer must run `git fetch` and `npm publish` to update the associated npm package. As such, new versions must include an updated version number within `package.json`.
 
 [You can find the theme's npm package here.](https://www.npmjs.com/package/peertube-theme-pacerip)
+
+Also! The weird directory structure of this repo is to accommodate `peertube-theme-pacerip-light-dark-flip`.
