@@ -1,0 +1,74 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --textBoxBorder: #646c7d;
+    }
+    body {
+        --mainBackgroundColor: #ebeaea;
+        --mainForegroundColor: var(--mainColor);
+        --submenuBackgroundColor: var(--mainBackgroundColor);
+        --inputForegroundColor: var(--mainColor);
+        --inputBackgroundColor: transparent;
+        --inputPlaceholderColor: var(--mainColor);
+        --textareaForegroundColor: var(--mainColor);
+        --textareaBackgroundColor: var(--mainBackgroundColor);
+        --markdownTextareaBackgroundColor: var(--mainBackgroundColor);
+        --greyForegroundColor: var(--mainColor);
+        --actionButtonColor: #0d5255;
+        --secondaryColor: var(--actionButtonColor);
+        --activatedActionButtonColor: var(--actionButtonColor);
+        --menuBackgroundColor: var(--mainBackgroundColor);
+        --menuForegroundColor: var(--mainColor);
+        --mainColor: #323846;
+        --mainColorLighter: #495c83;
+        --mainColorLightest: #506590;
+        --mainHoverColor: #6e7c98;
+        --embedForegroundColor: var(--mainColor);
+        --embedBigPlayBackgroundColor: var(--mainBackgroundColor);
+        --channelBackgroundColor: var(--mainBackgroundColor);
+        /* Legacy variables */
+        --submenuColor: var(--mainBackgroundColor);
+        /* End legacy variables */
+    }
+    html, body, :root {
+        background-color: var(--mainBackgroundColor);
+    }
+    .logged-in-username {
+        color: var(--mainColor) !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --textBoxBorder: #646c7d;
+    }
+    body {
+        --mainBackgroundColor: #141515;
+        --mainForegroundColor: var(--mainColor);
+        --submenuBackgroundColor: var(--mainBackgroundColor);
+        --inputForegroundColor: var(--mainColor);
+        --inputBackgroundColor: transparent;
+        --inputPlaceholderColor: var(--mainColor);
+        --textareaForegroundColor: var(--mainColor);
+        --textareaBackgroundColor: var(--mainBackgroundColor);
+        --markdownTextareaBackgroundColor: var(--mainBackgroundColor);
+        --greyForegroundColor: var(--mainColor);
+        --actionButtonColor: #a9d3b8;
+        --secondaryColor: var(--actionButtonColor);
+        --activatedActionButtonColor: var(--actionButtonColor);
+        --menuBackgroundColor: var(--mainBackgroundColor);
+        --menuForegroundColor: var(--mainColor);
+        --mainColor: #a9b7d3;
+        --mainColorLighter: #b7c7e5;
+        --mainColorLightest: #c1d1f1;
+        --mainHoverColor: #8893aa;
+        --embedForegroundColor: var(--mainColor);
+        --embedBigPlayBackgroundColor: var(--mainBackgroundColor);
+        --channelBackgroundColor: var(--mainBackgroundColor);
+        /* Legacy variables */
+        --submenuColor: var(--mainBackgroundColor);
+        /* End legacy variables */
+    }
+    html, body, :root {
+        background-color: var(--mainBackgroundColor);
+    }
+}
